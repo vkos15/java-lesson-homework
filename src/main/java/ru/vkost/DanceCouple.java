@@ -1,6 +1,8 @@
 package ru.vkost;
 
+// класс - танцевальная пара
 public class DanceCouple {
+
     String firstPerson; //имя партнера
     String secondPerson; //имя партнерши
     String category; //категория пары
@@ -11,8 +13,9 @@ public class DanceCouple {
         this.category = category;
     }
 
-    public void changeCategoryOfCouple (DanceCouple couple, String newCategory){
-        couple.category=newCategory;
+    //изменить категорию пары
+    public void changeCategoryOfCouple(DanceCouple couple, String newCategory) {
+        couple.category = newCategory;
     }
 }
 
